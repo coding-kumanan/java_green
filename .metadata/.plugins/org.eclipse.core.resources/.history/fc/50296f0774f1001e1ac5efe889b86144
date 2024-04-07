@@ -1,0 +1,13 @@
+package org.tamilnadu;
+
+public class Test {
+	public static void main(String[] args) {
+		int[] mk = {20,10,30,40,50};
+		int[] mk1 = {70,80,90};
+		for(int w:mk) {
+			System.out.println(w);
+		}
+		
+	}
+
+}

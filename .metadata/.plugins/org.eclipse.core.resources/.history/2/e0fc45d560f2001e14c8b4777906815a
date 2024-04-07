@@ -1,0 +1,27 @@
+package stringexamples.org;
+
+public class UpperToLowerLowerToUpper {
+//this program replace given text into uppercase to lowercase and lowercase to uppercase wise versa 
+	public String UppeToLowerLowerToUpper(String text) {
+		
+		return text;
+		
+	}
+	public static void main(String[] args) {
+		String originalText = "WeLcOmE";
+		String  replacedText= "";
+		for(int i=0;i<originalText.length();i++) {
+			//in Characterclass isLowercase method is present
+			if(Character.isLowerCase(originalText.charAt(i)))
+			{
+				replacedText+= Character.toUpperCase(originalText.charAt(i));
+			}
+			else {
+				replacedText+=Character.toLowerCase(originalText.charAt(i));
+			}
+		}
+		System.out.println(replacedText);
+
+	}
+
+}

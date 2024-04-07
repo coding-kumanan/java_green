@@ -1,0 +1,31 @@
+package stringexamples.org;
+
+
+public class LengthOfTheString {
+	//global variable declaration
+	public static String string1 = "GreensTechnology";
+	public static String string2 = "seleniumAutomation";
+	public static String string3 = "Velmurugan";
+	//we can access above global variable from any method inside this class.  
+	
+	public int stringLength1(String string) {
+		int length =string.length();
+		return length;
+		
+	}
+	public static void stringLength2(String string) {
+		int length = string.length();
+		System.out.println("The length of the string "+string+" is "+length);
+		int length1 = string1.length();
+		System.out.println("The length of the string "+string1+" is "+length1);
+	}
+	public static void main (String[] args) {
+		LengthOfTheString lengthString = new LengthOfTheString();
+		int length= lengthString.stringLength1("kumanan");
+		 System.out.println("The length of the given string is "+ length );
+		 stringLength2("mohit");
+		 stringLength2("Nandini");
+		 stringLength2("j a v a");
+
+	}
+}

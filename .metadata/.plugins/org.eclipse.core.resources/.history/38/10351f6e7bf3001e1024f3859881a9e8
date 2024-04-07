@@ -1,0 +1,24 @@
+package arrayexamples.org;
+
+
+import java.util.LinkedList;
+public class FindIndexofList {
+
+	public static void main(String[] args) {
+		LinkedList<Integer> list = new LinkedList<Integer>();
+		int [] a = {10,20,30,90,10,40,50,10};
+		System.out.println("Printing each value of linked list using for each");
+		for(int x:a) {
+		list.add(x);
+		System.out.print(x+" ");
+		}
+
+		System.out.println("\n----------\neach index values of 10");
+		for(int i=0;i<list.size();i++) {
+			if(list.get(i)==10)
+				System.out.print(i+" ");	
+				}
+		list.add(2, 50);
+		
+		}
+	}

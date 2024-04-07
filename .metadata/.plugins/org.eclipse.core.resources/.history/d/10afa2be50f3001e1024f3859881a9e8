@@ -1,0 +1,19 @@
+package stringexamples.org;
+
+public class SplitString {
+	public static void split(String string, String regex ) {
+		String[] s2 = string.split(regex);
+		for(String w:s2)
+		System.out.println(w);
+
+	}
+	public static void substring(String string, int startindex, int endindex) {
+		System.out.println(string.substring(startindex, endindex));
+	}
+	public static void main(String[] args) {
+		split("my name is kumanan", "k");
+		substring("i am fine", 3, 9);
+
+	}
+
+}

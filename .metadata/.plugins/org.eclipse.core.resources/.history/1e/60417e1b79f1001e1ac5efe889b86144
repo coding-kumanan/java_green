@@ -1,0 +1,6 @@
+package org.tamilnadu;
+
+public class Boy extends Marriage{
+	
+
+}

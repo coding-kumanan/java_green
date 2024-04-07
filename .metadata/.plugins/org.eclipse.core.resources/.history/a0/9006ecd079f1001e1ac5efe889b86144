@@ -1,0 +1,12 @@
+package org.tamilnadu;
+
+public class Boy extends Marriage{
+	public static void girlName() {
+		System.out.println("Thaneesa");
+	}
+
+	public static void main(String[] args) {
+		Boy girl = new Boy();
+		girl.girlName();
+	}
+}

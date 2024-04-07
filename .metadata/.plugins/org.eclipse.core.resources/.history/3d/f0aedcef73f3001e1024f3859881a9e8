@@ -1,0 +1,29 @@
+package arrayexamples.org;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.HashSet;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Vector;
+
+public class FindIndexofList {
+
+	public static void main(String[] args) {
+		LinkedList<Integer> list = new LinkedList<Integer>();
+		int [] a = {10,20,30,90,10,40,50,10};
+		for(int x:a) {
+		list.add(x);}
+		//int wcon=0;
+		for(int w:list) {
+				if(w==10) {
+				System.out.println(list.indexOf(w));
+				}
+
+			}
+		}
+			
+		//System.out.println(w);
+
+	}
+

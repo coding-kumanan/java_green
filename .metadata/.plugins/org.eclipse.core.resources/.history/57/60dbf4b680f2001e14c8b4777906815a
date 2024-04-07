@@ -1,0 +1,29 @@
+package stringexamples.org;
+
+public class FindVowelsCostance {
+
+	public static void main(String[] args) {
+		String text = "I am kumanan ae";
+		String lText= text.toLowerCase();
+		
+		int vcount= 0,ccount=0;
+		String vstrng = "";
+		for(int i=0;i<text.length();i++) {
+				if(lText.charAt(i)=='a'|| lText.charAt(i)=='e'
+						|| lText.charAt(i)=='i' || lText.charAt(i)=='o' || lText.charAt(i)=='u') {
+					vstrng+= lText.charAt(i); 
+					vcount++;
+					
+				}
+				
+			}
+		System.out.println(vstrng.length());
+
+
+
+	
+	
+	}
+}
+
+

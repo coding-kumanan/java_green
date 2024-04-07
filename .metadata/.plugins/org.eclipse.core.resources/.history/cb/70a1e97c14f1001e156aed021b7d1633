@@ -1,0 +1,15 @@
+package org.partialabstrac;
+//in partial abstraction we use abstract class and abstract method
+
+public class Main {
+
+	public static void main(String[] args) {
+		Car car = new Car();
+		car.describeVechile();
+		car.go();
+		car.stop();
+		car.reverse();
+
+	}
+
+}

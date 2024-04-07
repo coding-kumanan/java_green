@@ -1,0 +1,12 @@
+package org.tamilnadu;
+
+public class Test {
+	public static void main(String[] args) {
+		String[] mk = {"kumanan", "mohit"};
+		for(String w:mk) {
+			System.out.println(w);
+		}
+		
+	}
+
+}

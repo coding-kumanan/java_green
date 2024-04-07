@@ -1,0 +1,14 @@
+package stringexamples.org;
+
+
+public class LengthOfTheString {
+	public int stringLength(String string) {
+		int length =string.length();
+		return length;
+		
+	}
+	public static void main (String[] args) {
+		LengthOfTheString lengthString = new LengthOfTheString();
+		 System.out.println(lengthString.stringLength("kumanan");)
+	}
+}

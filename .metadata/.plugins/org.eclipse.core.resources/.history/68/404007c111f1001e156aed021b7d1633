@@ -1,0 +1,7 @@
+package org.fullAbstract;
+
+public interface example {
+	 default void mk1gp() {
+		System.out.println("From mk1gp default method ");
+		}
+}

@@ -1,0 +1,5 @@
+package stringexamplesInheritance.org;
+
+public class FindIndex extends FindChar {
+
+}

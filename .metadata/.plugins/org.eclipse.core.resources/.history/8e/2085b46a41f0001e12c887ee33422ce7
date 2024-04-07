@@ -1,0 +1,23 @@
+package sumvaluesofarray.org;
+
+public class SumOfArray {
+	static int a[]= {1,2,3,4,5,6,7,8,9,10};
+	static int sum = 0;
+	static float avg = 0;
+	public int arySum() {
+		for(int i=0;i<a.length;i++) {
+			sum += a[i];	
+		}
+		return sum;	
+	}
+		public float aryAvg() {
+			avg = sum/a.length;
+			return avg;	
+		}
+	public static void main(String[] args) {
+		
+		SumOfArray arry =new SumOfArray();
+		System.out.print("Sum of array value is "+ arry.arySum() + "Avg is "+ arry.aryAvg());
+	}
+
+}

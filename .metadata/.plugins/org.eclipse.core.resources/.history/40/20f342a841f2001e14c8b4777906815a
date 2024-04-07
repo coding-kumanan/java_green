@@ -1,0 +1,45 @@
+package stringexamples.org;
+
+
+public class LengthOfTheString {
+	//global variable declaration
+	public static String string1 = "GreensTechnology";
+	public static String string2 = "seleniumAutomation";
+	public static String string3 = "Velmurugan";
+	public static String string4 = "I am the Globalvariabel";
+	//we can access above global variable from any method inside this class.  
+	
+	//method to find the string length using string arugement and return int value as length
+	public int stringLength1(String string) {
+		int length =string.length();
+		System.out.println(string4+" printing from stringLength1 method");
+		return length;
+		
+	}
+	
+	//method getting string argument and calling stringLength1 by passing string argument
+	// and print the return value from the stringLength1
+	public static void stringLength2(String string) {
+		LengthOfTheString lengthString = new LengthOfTheString();
+		int length = lengthString.stringLength1(string);
+		System.out.println(string4+" printing from stringLength2 method");
+		System.out.println("The length of the string "+string+" is "+length);
+		System.out.println("-----------------------------------------------");
+	}
+	public static void main (String[] args) {
+		//object creation to access methods in the class
+		 LengthOfTheString lengthString = new LengthOfTheString();
+		 //calling stringLength1 method by passing string arg it will return int length 
+		 int length= lengthString.stringLength1("kumanan");
+		 System.out.println("The length of the kumanan string is "+ length );
+		 System.out.println("-----------------------------------------------");
+		 //calling stringLength2 method without creating object because stringLenght2 method is static
+		 stringLength2("mohit");
+		 stringLength2("Nandini");
+		 stringLength2("j a v a");
+		 stringLength2(string1);
+		 stringLength2(string2);
+		 stringLength2(string3);
+
+	}
+}

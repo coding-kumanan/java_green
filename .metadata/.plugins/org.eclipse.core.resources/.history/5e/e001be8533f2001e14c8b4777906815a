@@ -1,0 +1,19 @@
+package stringexamples.org;
+
+
+public class LengthOfTheString {
+	public int stringLength1(String string) {
+		int length =string.length();
+		return length;
+		
+	}
+	public static void strigLength2(String string) {
+		int length = string.length();
+		System.out.println();
+	}
+	public static void main (String[] args) {
+		LengthOfTheString lengthString = new LengthOfTheString();
+		int length= lengthString.stringLength1("kumanan");
+		 System.out.println("The length of the given string is "+ length );
+	}
+}

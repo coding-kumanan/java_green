@@ -1,0 +1,12 @@
+package stringexamplesInheritance.org;
+
+public class Mainclass extends DataClass {
+
+	public static void main(String[] args) {
+		Mainclass output = new Mainclass();
+		output.findChar(output.kumanan, 1);
+		output.findchar()
+
+	}
+
+}

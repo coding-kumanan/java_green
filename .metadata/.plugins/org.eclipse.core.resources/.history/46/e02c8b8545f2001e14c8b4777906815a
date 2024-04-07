@@ -1,0 +1,21 @@
+package stringexamples.org;
+
+public class FindIndexOfChar {
+	public int index(String string) {
+		int index = string.indexOf('0');
+		return 0;
+		
+	}
+	
+	
+	
+	
+	
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

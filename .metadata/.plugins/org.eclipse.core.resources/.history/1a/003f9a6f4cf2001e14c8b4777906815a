@@ -1,0 +1,11 @@
+package stringexamples.org;
+
+public class FindCharByIndex extends StringDataClass {
+
+	public static void main(String[] args) {
+		FindCharByIndex data = new FindCharByIndex();
+		System.out.println("Char H in the GreensTechnology is "+data.greensTech.charAt(0));
+
+	}
+
+}

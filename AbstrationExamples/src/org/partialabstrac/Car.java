@@ -1,0 +1,47 @@
+package org.partialabstrac;
+
+public class Car extends BVechile{
+	@Override
+	void go() {
+		System.out.println("The car is moving");
+		
+	}
+
+	@Override
+	void stop() {
+		System.out.println("The car is stopped");
+		
+	}
+
+	@Override
+	void reverse() {
+		System.out.println("The car is moving in reverse");
+		
+		
+	}
+
+	@Override
+	void typeOfVechile() {
+		System.out.println("This is seden car");
+		
+	}
+
+	@Override
+	void typeOfEngine() {
+		System.out.println("This car have 1500cc 4 cycliner turbo petrol engine");
+		
+	}
+
+	@Override
+	void seatCapacity() {
+		System.out.println("This is 5 seater car");
+		
+	}
+
+	@Override
+	public void brandName() {
+		System.out.println("This car brand is Subaru");
+		
+	}
+	
+}

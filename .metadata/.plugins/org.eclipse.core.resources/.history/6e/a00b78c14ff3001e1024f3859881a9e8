@@ -1,0 +1,16 @@
+package stringexamples.org;
+
+public class SplitString {
+	//public static String split(String string, String regex ) {
+//	String [] split= string.split(regex);
+//	for(int i=0;i<split.length;i++)
+//	return split[i];
+
+
+	public static void main(String[] args) {
+		String s1 = new String("kumanan is my name");
+		String[] s2 = s1.split(" ");
+		System.out.println(s2);
+	}
+
+}

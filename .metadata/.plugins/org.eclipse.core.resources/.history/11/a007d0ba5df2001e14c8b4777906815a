@@ -1,0 +1,14 @@
+package stringexamples.org;
+
+public class ReplaceVowles {
+//this program replace vowels in a string to @
+	public static void main(String[] args) {
+		String text = "welcome";
+		char [] vowles = {'a', 'e','i','o','u'};
+		for(char iration: vowles) {
+			text = text.replace(iration, '@');
+		}
+		System.out.println(text);
+	}
+
+}

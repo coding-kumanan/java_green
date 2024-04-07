@@ -1,0 +1,13 @@
+package org.fullAbstract;
+
+public interface PassWord extends UserName, example {
+	public abstract void passWordValidation();
+	static void mk() {
+	System.out.println("From static method ");
+	}
+	 default void mk1() {
+		System.out.println("From default method ");
+		}
+
+
+}

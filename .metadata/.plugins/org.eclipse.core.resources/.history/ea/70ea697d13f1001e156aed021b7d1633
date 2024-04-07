@@ -1,0 +1,28 @@
+package org.fullAbstract;
+
+//we can extends more than one number of interfaces to achieve multiple inheritance
+public interface PassWord extends UserName, example {
+	
+	public abstract void passWordValidation();//no implementation for abstract method
+	
+	
+	static void mk() {
+	System.out.println("From static method ");
+	}
+	 default void mk1() {
+		System.out.println("From default method ");
+		}
+	 
+		public static void main (String[] args) {
+			Login homeValidation = new Login();
+			homeValidation.userValidation();
+			homeValidation.passWordValidation();
+			homeValidation.mk1();
+			homeValidation.mk1gp();
+			
+			
+		}
+		
+
+
+}

@@ -1,0 +1,15 @@
+package stringexamples.org;
+
+public class SplitString {
+	public static void split(String string, String regex ) {
+		String[] s2 = string.split(regex);
+		for(String w:s2)
+		System.out.println(w);
+
+	}
+	public static void main(String[] args) {
+		split("my name is kumanan", "k");
+
+	}
+
+}

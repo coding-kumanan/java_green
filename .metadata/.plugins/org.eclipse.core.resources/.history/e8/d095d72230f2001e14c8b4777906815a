@@ -1,0 +1,18 @@
+package stringexamples.org;
+
+
+public class LengthOfTheString {
+	public String someStrings() {
+		String string1 = "GreensTechnology";
+		String string2 = "SeleniumAutomationTool";
+		String string3 = "Velmurugan";
+		String string4 = "J a v a p r o g r a m";
+		String string5 = "9095484678";
+		return string5;
+		
+	}
+	public static void main (String[] args) {
+		LengthOfTheString lengthString = new LengthOfTheString();
+		 lengthString.someStrings();
+	}
+}

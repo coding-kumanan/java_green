@@ -1,0 +1,24 @@
+package org.partialabstrac;
+
+public class Car extends Vechile {
+
+	@Override
+	void go() {
+		System.out.println("The car is moving");
+		
+	}
+
+	@Override
+	void stop() {
+		System.out.println("The car is stopped");
+		
+	}
+
+	@Override
+	void reverse() {
+		System.out.println("The car is moving in reverse");
+		
+		
+	}
+	
+}

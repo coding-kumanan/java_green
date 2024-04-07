@@ -1,0 +1,26 @@
+package stringexamples.org;
+
+public class FindInvalidPh {
+
+	public static void main(String[] args) {
+		String phonenumber = "9080543331";
+		char match = ' ';
+		int lettercount=0;
+		if(phonenumber.length()<=10) {
+		for(int i = 0; i<phonenumber.length();i++) {
+			match = phonenumber.charAt(i);
+			
+		    if(Character.isLetter(match)) {
+		    	lettercount = lettercount+1;
+		    	//System.out.println("Invalid phone number");
+		     }
+		   }
+		}
+		else if(lettercount<=0) {
+			System.out.println("Valid");
+		}
+		else {
+			System.out.println("invalid");
+		}
+	}
+}

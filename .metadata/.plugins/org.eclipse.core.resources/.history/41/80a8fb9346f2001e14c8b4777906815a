@@ -1,0 +1,18 @@
+package stringexamples.org;
+
+public class FindIndexOfChar {
+	public static int index(String str, char cha) {
+		int index = str.indexOf(cha);
+		return index;
+		
+	}
+	public static int lastIndex(String str, char cha) {
+		return str.lastIndexOf(cha);
+		
+	}
+	public static void main(String[] args) {
+		System.out.println("The index of the 'o' is "+index("GreensTechnology", 'o'));
+		System.out.println(lastIndex("seleniumAutomation", 'o'));
+	}
+
+}

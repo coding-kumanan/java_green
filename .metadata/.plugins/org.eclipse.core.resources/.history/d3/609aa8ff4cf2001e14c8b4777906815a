@@ -1,0 +1,9 @@
+package stringexamples.org;
+
+public class StringDataClass {
+	String greensTech = "GreensTechonlogy";
+	String seleneAuto = "SeleniumAutomation";
+	String vel = "Velmurugan";
+	String j_a_v_a = "J a v a p r o g r a m";
+	String ph = "9095484678";
+}

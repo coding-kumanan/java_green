@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;sumvaluesofarray.org&apos; to &apos;arrayexamples.org&apos;&#x0D;&#x0A;- Original project: &apos;ArraysExample&apos;&#x0D;&#x0A;- Original element: &apos;ArraysExample/src/sumvaluesofarray.org&apos;&#x0D;&#x0A;- Renamed element: &apos;ArraysExample/src/arrayexamples.org&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;sumvaluesofarray.org&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;sumvaluesofarray.org" name="arrayexamples.org" qualified="false" references="true" stamp="1712335307300" textual="false" version="1.0"/>
+</session>

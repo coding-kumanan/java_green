@@ -1,0 +1,10 @@
+package org.tamilnadu;
+
+public class Marriage {
+	public void girlName() {
+		System.out.println("Nandini");
+	}
+	public static void main(String[] args) {
+
+	}
+}

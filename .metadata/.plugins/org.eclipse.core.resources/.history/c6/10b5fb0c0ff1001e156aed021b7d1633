@@ -1,0 +1,6 @@
+package org.fullAbstract;
+
+public interface PassWord {
+	public abstract void passWordValidation();
+
+}

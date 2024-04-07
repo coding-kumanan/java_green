@@ -1,0 +1,15 @@
+package stringexamples.org;
+
+public class FindIndexOfChar {
+	public static int index(String str, char cha) {
+		int index = str.indexOf(cha);
+		return index;
+		
+	}
+	
+	public static void main(String[] args) {
+		System.out.println(index("seleniumAutomation", 'o'));
+
+	}
+
+}

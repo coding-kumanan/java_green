@@ -1,0 +1,34 @@
+package stringexamples.org;
+
+public class FindVowelsCostance {
+
+	public static void main(String[] args) {
+		String text = "Iamkumananae";
+		String lText= text.toLowerCase();
+		
+		int vcount= 0,ccount=0;
+		String vstrng = "";
+		for(int i=0;i<text.length();i++) {
+				if(lText.charAt(i)=='a'|| lText.charAt(i)==) {
+					vcount++;
+				}
+				
+			}
+			if(lText.charAt(i)>='a'&& lText.charAt(i)<='z' ) {
+				ccount++;
+				
+			}
+	
+
+		
+		}
+		System.out.println(vcount);
+		System.out.println(ccount);
+
+
+
+	
+	
+	}
+}
+

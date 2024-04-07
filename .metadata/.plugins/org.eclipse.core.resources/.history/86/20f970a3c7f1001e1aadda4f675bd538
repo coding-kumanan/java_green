@@ -1,0 +1,26 @@
+package org.polymorexample;
+
+import java.util.Scanner;
+
+public class MethodOverLoad {
+	public void empId() {
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter the Employe Id ");
+		int empId = input.nextInt(); 
+		System.out.println("Employe Id is "+empId);
+	}
+	public void empId(int empId) {
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter the Employe age ");
+		int empAge = input.nextInt();
+		System.out.println("Employe Id is "+empId+"Employe age is "+empAge);
+		
+	}
+	public void empId(int empId,String name) {
+		System.out.println("Employe Id is " +empId+"Employe name is "+name);
+	}
+	public void empId(String name, int empId) {
+		System.out.println("Employe name is "+name+"/nEmployee id is "+empId);
+		
+	}
+}
